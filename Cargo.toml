@@ -1,0 +1,11 @@
+[package]
+authors = ["panicbit <panicbit.dev@gmail.com>"]
+build = "build.rs"
+name = "obs"
+version = "0.1.0"
+
+[build-dependencies]
+cmake = "0.1.17"
+
+[dependencies]
+libc = "0.2.15"

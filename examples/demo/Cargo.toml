@@ -1,0 +1,10 @@
+[package]
+name = "demo"
+version = "0.1.0"
+authors = ["panicbit <panicbit.dev@gmail.com>"]
+
+[dependencies]
+obs = {path = "../../"}
+
+[lib]
+crate-type = ["dylib"]
